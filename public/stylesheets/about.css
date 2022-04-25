@@ -3,8 +3,37 @@ body {
     padding: 0;
     border: 0;
     background-color: cadetblue;
+    background-image: url(/images/fondo.jpg);
 }
 
 h1 {
-    color: green;
+    color:darkgreen;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: darkgreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+#img-xbox {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 20px;
+    width: 10em;
+}
+
+#img-ps {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 20px;
+    width: 10em;
 }

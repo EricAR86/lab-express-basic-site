@@ -3,8 +3,37 @@ body {
     padding: 0;
     border: 0;
     background-color:lightblue ;
+    background-image: url(/images/fondo.jpg);
 }
 
 h1 {
     color:navy;
+    text-align: center;
+}
+
+p {
+    color: navy;
+    text-align: center;
+    font-size: 30px;
+}
+
+#img-ericsson {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 25em;
+}
+
+#img-toyota {
+    display: block;
+    margin: auto;
+    padding: 20px ;
+    width: 25em;
+}
+
+#img-gnp {
+    display: block;
+    margin: auto;
+    padding: 20px ;
+    width: 25em;
 }
